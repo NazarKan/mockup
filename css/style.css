@@ -240,8 +240,8 @@ body.fixed-nav .header__nav {
 
 .about {
   padding: 60px 0 85px;
-  background: url("../../img/Группа_1.png") right 160px no-repeat, -webkit-gradient(linear, left top, left bottom, from(#eff1e4), to(#eff1e4));
-  background: url("../../img/Группа_1.png") right 160px no-repeat, linear-gradient(#eff1e4, #eff1e4);
+  background: url("../img/Группа_1.png") right 160px no-repeat, -webkit-gradient(linear, left top, left bottom, from(#eff1e4), to(#eff1e4));
+  background: url("../img/Группа_1.png") right 160px no-repeat, linear-gradient(#eff1e4, #eff1e4);
   mix-blend-mode: overlay;
   position: relative;
 }
@@ -253,7 +253,7 @@ body.fixed-nav .header__nav {
   left: 50px;
   width: 461px;
   height: 799px;
-  background: url("../../img/Группа_1_копия.png") 0 0 no-repeat;
+  background: url("../img/Группа_1_копия.png") 0 0 no-repeat;
 }
 
 .about__title {
@@ -312,7 +312,7 @@ body.fixed-nav .header__nav {
 }
 
 .pros {
-  background-image: url("../../img/photography-1850469_1920.png"), url(../../img/Прямоугольник_8.svg);
+  background-image: url("../img/photography-1850469_1920.png"), url(../img/Прямоугольник_8.svg);
   background-blend-mode: overlay, color;
   color: #fff;
   padding: 60px 0px 55px 0px;
@@ -422,7 +422,7 @@ body.fixed-nav .header__nav {
 }
 
 .post__img {
-  background: url("../../img/clarisse-meyer-fegQqTTEolA-unsplash.png");
+  background: url("../img/clarisse-meyer-fegQqTTEolA-unsplash.png");
   background-blend-mode: overlay, color;
 }
 
@@ -452,7 +452,7 @@ body.fixed-nav .header__nav {
 }
 
 .post:hover .post__img {
-  background: url("../../img/clarisse-meyer-fegQqTTEolA-unsplash.png"), url("../../img/Прямоугольник_11.png");
+  background: url("../img/clarisse-meyer-fegQqTTEolA-unsplash.png"), url("../img/Прямоугольник_11.png");
   background-blend-mode: overlay, color;
 }
 
@@ -461,7 +461,7 @@ body.fixed-nav .header__nav {
   bottom: 100px;
   right: 42px;
   z-index: 10;
-  background: url("../../img/Кнопка.png") 0 0 no-repeat;
+  background: url("../img/Кнопка.png") 0 0 no-repeat;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
   width: 100px;
@@ -469,11 +469,11 @@ body.fixed-nav .header__nav {
 }
 
 .post:hover .post__hoverstuff:hover {
-  background: url("../../img/Кнопка_-_эффект_наведения.png") 0 0 no-repeat;
+  background: url("../img/Кнопка_-_эффект_наведения.png") 0 0 no-repeat;
 }
 
 .products {
-  background: url("../../img/Прямоугольник_12.png"), url("../../img/photo-studio-4303312_1920.png") no-repeat;
+  background: url("../img/Прямоугольник_12.png"), url("../img/photo-studio-4303312_1920.png") no-repeat;
   mix-blend-mode: overlay;
   padding: 45px 0px;
 }
@@ -535,7 +535,7 @@ body.fixed-nav .header__nav {
 }
 
 .footer {
-  background: url("../../img/фон.png") 0 0 no-repeat;
+  background: url("../img/фон.png") 0 0 no-repeat;
 }
 
 .footer__title {
@@ -588,7 +588,7 @@ body.fixed-nav .header__nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url("../../img/Прямоугольник_14.png") 0 0 no-repeat, url("../../img/chuttersnap-f2LWA5vnAQw-unsplash.png") 100% no-repeat;
+  background: url("../img/Прямоугольник_14.png") 0 0 no-repeat, url("../img/chuttersnap-f2LWA5vnAQw-unsplash.png") 100% no-repeat;
   mix-blend-mode: overlay, color;
 }
 
@@ -660,7 +660,10 @@ body.fixed-nav .header__nav {
 .form__body {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "name city" "email email" "msg msg" "btn btn";
+      grid-template-areas: "name city"
+ "email email"
+ "msg msg"
+ "btn btn";
 }
 
 .form__title {
